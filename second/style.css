@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+div {
+    height: 100%;
+    float: left;
+}
+
+#left {
+    width:220px;
+    margin: 0;
+    background-color: #4A90E2;
+    text-align: center;
+}
+#center {
+    margin: 0;
+    width: calc(100% - 460px);
+    background-color: #50E3C2;
+    text-align: center;
+
+}
+#right {
+    margin: 0;
+    width: 220px;
+    background-color: #B8E986;
+    text-align: center;
+
+}
+
+
+.box {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	bottom:0;
+	right:0;
+	background-color: red;
+}
+
